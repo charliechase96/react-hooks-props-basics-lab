@@ -11,9 +11,10 @@ function App() {
     <div>
       <NavBar />
       <Home color={user.color} name={user.name} city={user.city}/>
-      <About bio={user.bio} github={user.links} linkedin={user.links}/>
+      <About bio={user.bio} github={user.links.github} linkedin={user.links.linkedin}/>
     </div>
   );
 }
+
 
 export default App;
